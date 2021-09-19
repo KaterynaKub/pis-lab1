@@ -1,0 +1,11 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.main-footer .icon{
+    color:red;
+    margin-left: 10px;
+    font-size: larger;
+}
