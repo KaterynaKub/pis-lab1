@@ -1,0 +1,41 @@
+.main-content{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.main-content .menu-item:first-child{
+    background-color: darksalmon;
+}
+.slds-scrollable_x{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3.2rem;
+    padding: 0;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.slds-scrollable_x .menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px grey;
+    border-radius: 20px;
+    font-size: large;
+    padding: .3rem 1rem;
+    margin: 0 .5rem ;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.slds-scrollable_x .menu-item:hover{
+    filter:brightness(0.8);
+    transition: .5s;
+}
+
+.slds-scrollable_x::-webkit-scrollbar{
+    width:0;
+    height: 0;
+}

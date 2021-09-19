@@ -1,0 +1,12 @@
+:root{
+    --header-height :50px;
+    --sidebar-max : 220px;
+    --sidebar-min:80px;
+    --height-footer:80px;
+    --stream-line-height:80px;
+}
+html{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+} 
