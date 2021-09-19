@@ -4,9 +4,11 @@
     --sidebar-min:80px;
     --height-footer:80px;
     --stream-line-height:80px;
+    --color-back: whitesmoke;
 }
 html{
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     font-weight:normal;
 } 
+

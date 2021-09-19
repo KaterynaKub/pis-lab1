@@ -54,7 +54,7 @@
     content: "\f002";
     font-family: FontAwesome;
     font-size: 16px;
-    color:whitesmoke;
+    color:var(--color-back);
   }
   .search .micro{
     height: 1.8rem;
@@ -97,7 +97,7 @@
     top: var(--header-height);
     right: 0;
     margin-right: .5rem;
-    background-color:whitesmoke;
+    background-color:var(--color-back);
     z-index: 100;
 }
 

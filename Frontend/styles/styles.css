@@ -5,7 +5,7 @@
 
 
 .main-header{
-    background-color:whitesmoke;
+    background-color: var(--color-back);
     position: fixed;
     top:0;
     left: 0; 
@@ -34,7 +34,7 @@
  
 }
 .main-content{
-    background-color: whitesmoke;
+    background-color:var(--color-back);
     height: 100%;
 }
 .main-footer{
